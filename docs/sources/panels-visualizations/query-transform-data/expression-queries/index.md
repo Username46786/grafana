@@ -234,7 +234,7 @@ Resample changes the time stamps in each time series to have a consistent time i
 - **Resample to -** The duration of time to resample to, for example `10s`. Units may be `s` seconds, `m` for minutes, `h` for hours, `d` for days, `w` for weeks, and `y` of years.
 - **Downsample -** The reduction function to use when there are more than one data point per window sample. See the reduction operation for behavior details.
 - **Upsample -** The method to use to fill a window sample that has no data points.
-  - **pad** fills with the last know value
+  - **pad** fills with the last known value
   - **backfill** with next known value
   - **fillna** to fill empty sample windows with NaNs
 
